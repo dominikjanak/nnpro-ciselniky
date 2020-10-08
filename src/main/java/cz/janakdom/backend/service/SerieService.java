@@ -9,7 +9,7 @@ import java.util.*;
 
 @Service(value = "deviceService")
 public class SerieService {
-    
+
     public List<RailroadEntity> getSerieRailRoads() {
         List<RailroadEntity> data = new ArrayList<RailroadEntity>();
         int i = 0;
