@@ -11,8 +11,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class RailroadEntity extends BaseEntity {
-    private Integer id;
-    private String lineNumber;
+    private String number;
     private String name;
-    private String route;
 }
