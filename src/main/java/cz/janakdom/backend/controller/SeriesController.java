@@ -25,17 +25,17 @@ public class SeriesController {
     private final Logger log = LoggerFactory.getLogger(this.getClass());
 
     @GetMapping("/railroads")
-    public ApiResponse<List<RailroadEntity>> getSerieRailRoads() {
-        return new ApiResponse<>(HttpStatus.OK.value(), "OK",serieService.getSerieRailRoads());
+    public List<RailroadEntity> getSerieRailRoads() {
+        return serieService.getSerieRailRoads();
     }
 
     @GetMapping("/type-of-intervention")
-    public ApiResponse<List<TypeOfInterventionEntity>> getSerieTypeOfIntervention() {
-        return new ApiResponse<>(HttpStatus.OK.value(), "OK",serieService.getSerieTypeOfIntervention());
+    public List<TypeOfInterventionEntity> getSerieTypeOfIntervention() {
+        return serieService.getSerieTypeOfIntervention();
     }
 
     @GetMapping("/affected-entity")
-    public ApiResponse<List<AffectedEntityEntity>> getSerieAffectedEntity() {
-        return new ApiResponse<>(HttpStatus.OK.value(), "OK",serieService.getSerieAffectedEntity());
+    public List<AffectedEntityEntity> getSerieAffectedEntity() {
+        return serieService.getSerieAffectedEntity();
     }
 }
