@@ -46,7 +46,7 @@ public class SerieService {
         data.add(new RailroadEntity("043", "Trutnov - Žacléř"));
         data.add(new RailroadEntity("044", "Kunčice nad Labem - Vrchlabí"));
         data.add(new RailroadEntity("045", "Trutnov - Svoboda nad Úpou"));
-        data.add(new RailroadEntity("046", "Lomnice nad Popelkou - Stará Paka"));
+        /*data.add(new RailroadEntity("046", "Lomnice nad Popelkou - Stará Paka"));
         data.add(new RailroadEntity("047", "Trutnov - Teplice nad Metují"));
         data.add(new RailroadEntity("060", "Poříčany - Nymburk"));
         data.add(new RailroadEntity("061", "Nymburk - Jičín"));
@@ -238,7 +238,7 @@ public class SerieService {
         data.add(new RailroadEntity("911", "Zastávka u Brna MPŽ - Zbýšov-důl Jindřich (Muzeum průmyslových železnic)"));
         data.add(new RailroadEntity("912", "Velké Březno - Zubrnice - Verneřice/Úštěk (Zubrnická museální železnice)"));
         data.add(new RailroadEntity("913", "Zkušební okruh VUZ Velim"));
-        data.add(new RailroadEntity("ML", "S41 Praha-Libeň - Roztoky u Prahy"));
+        data.add(new RailroadEntity("ML", "S41 Praha-Libeň - Roztoky u Prahy"));*/
         return data;
     }
 
