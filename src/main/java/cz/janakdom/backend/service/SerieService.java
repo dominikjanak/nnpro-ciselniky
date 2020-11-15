@@ -252,7 +252,8 @@ public class SerieService {
         data.add(new TypeOfInterventionEntity(++i, "Cvičení jednotek"));
         data.add(new TypeOfInterventionEntity(++i, "Likvidace nebezpečného hmyzu"));
         data.add(new TypeOfInterventionEntity(++i, "Únik (oleje z lokomotiv, apod.)"));
-        data.add(new TypeOfInterventionEntity(++i, "Zimní opatení (sníh, ledové krápníky)"));
+        data.add(new TypeOfInterventionEntity(++i, "Zimní opatření (sníh, ledové krápníky)"));
+        data.add(new TypeOfInterventionEntity(++i, "Jiný"));
         return data;
     }
 
